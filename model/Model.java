@@ -17,7 +17,7 @@ import java.util.concurrent.Future;
 
 public class Model {
     
-    private final static String API_key = "B7IRDPL4OUPTVI9O39XI3R4QZ402ZZVF"; // Hardcoded because that's mine. 
+    private final static String API_key = "API KEY"; // Hardcoded because that's mine. 
     private static RLStatsAPI api;
     private static String error;
     
