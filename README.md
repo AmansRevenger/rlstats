@@ -14,7 +14,7 @@ into the data base as "a new match". And ultimately make it available on my own 
 
 I thought this would be a nice project to actually do something useful.
 
-Features :
+###### Features :
 
 - seperate threads for UI and API Request
 - check input for SteamID or Name
@@ -27,3 +27,25 @@ Features :
 - display data on website
 - Initalize a new catabase / connect to an existing one (SQLite or mySQL is still open for debate)
 - put data into the database (user selection??)
+
+### current look
+
+![screenshot](https://i.imgur.com/uAjqN0B.png)
+
+
+### installation
+
+
+If you honestly want to check it out for yourself or customize it, you need JavaFX + a Java IDE of your choice (I work with Eclipse) and of course the Java API implementation from 567legodude [here](https://github.com/567legodude/RLStatsJava). Check out the releases and import the JAR file into the Build Path
+
+On UNIX based systems it's as easy as 
+`sudo apt-get install openjfx`
+and restart the IDE to get it to work. On Windows, download e(fx)clipse via the "Install New Software" dialog for Eclipse and restart it.
+
+Import the project via zip or via 
+`git clone https://github.com/AmansRevenger/rlstats` and point Eclipse to it as a new JavaFX Project.
+
+
+### Credit 
+
+Of course this wouldnt be possible without 567legodudes Java Implementation in the first place so many thanks to him. 
