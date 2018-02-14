@@ -55,17 +55,10 @@ public class Model {
 			System.out.println("Error incoming " + error);
 
 		} finally {
-			System.out.println("shutting down api");
+			System.out.println("shutting down api in Model");
 			api.shutdownThreads();
 		}
 		return null;
-	}
-
-	public boolean changed(Player player) {
-		PlaylistInfo info = player.getSeasonInfo(7).getPlaylistInfo(Playlist.RANKED_SOLO_STANDARD);
-		int matchesold = info.getMatchesPlayed();
-		return true;
-
 	}
 
 	public String getErrorCode() {

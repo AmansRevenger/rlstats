@@ -30,7 +30,7 @@ I thought this would be a nice project to actually do something useful.
 
 ### current look
 
-![screenshot](https://i.imgur.com/uAjqN0B.png)
+![screenshot](https://i.imgur.com/DO6d1fM.png)
 
 
 ### installation
